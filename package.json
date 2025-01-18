@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "npm install -g pm2 && pm2 start main.js --name=queen-elisa && pm2 logs",
-    "node": "node main.js"
+    "node": "npm install -g pm2 && node main.js"
   },
   "repository": {
     "type": "git",
